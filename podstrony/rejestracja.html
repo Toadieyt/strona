@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>strona</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" href="" sizes="16x16" type="image/png">
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="../index.html"><h1>LOGO</h1></a>
+            <a class="nowosci-text">NOWOŚCI</a>
+            <a class="ulubione-text">ULOBIONE</a>
+        </header>
+
+        <main>
+            <input type="checkbox" id="active">
+                <label for="active" class="menu-btn"><span></span></label>
+                <label for="active" class="close"></label>
+            <div class="wrapper">
+                <ul>
+                    <li><a class="logo" href="../index.html"><h1>LOGO</h1></a></li>
+                    <li><a class="nowosci-text">NOWOŚCI</a></li>
+                    <li><a class="ulubione-text">ULOBIONE</a></li>
+                </ul>
+            </div>
+            <form class="formularz" action="" method="post"> 
+                <p>REJESTRACJA</p>
+                <input class="name" type="text" name="name" placeholder="imię"> 
+                <input class="lastname" type="text" name="lastname" placeholder="nazwisko">
+                <input class="mail" type="text" name="mail" placeholder="e-mail"> 
+                <input class="password" type="password" name="password" placeholder="hasło">
+                <div class="buttons">
+                    <button class="zaloguj" type="submit">Zaloguj</button>
+                    <button class="reset" type="reset">Wyszyść</button>
+                </div>
+                <p>MASZ JUŻ KONTO? <a href="logowanie.html">ZALOGUJ SIĘ</a></p>
+                </form>
+        </main>
+
+        <footer>
+            <p style="color: rgb(200, 200, 200);">©Dawid Ślusarczyk & Jakub Półchłopek 2022</p>
+        </footer>
+    </body>
+</html>
