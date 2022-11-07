@@ -295,7 +295,7 @@ footer {
     }
 
     .wrapper {
-        z-index: 1;
+        z-index: 3;
         position: fixed;
         top: 0;
         right: -100%;
