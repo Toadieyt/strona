@@ -18,7 +18,7 @@ header {
     width: 100%;
     background: none;
     font-family: "Montserrat", sans-serif;
-    z-index: 2;
+    z-index: 4;
 }
 
 .logo {
