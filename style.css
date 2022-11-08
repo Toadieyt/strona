@@ -320,7 +320,7 @@ footer {
 
     .menu-btn {
         position: fixed;
-        z-index: 2;
+        z-index: 5;
         right: 20px;
         top: 20px;
         height: 50px;
@@ -352,6 +352,7 @@ footer {
     }
     
     .close {
+        z-index: 5;
         height: 100%;
         pointer-events: none;
         transition: 0.6s;
