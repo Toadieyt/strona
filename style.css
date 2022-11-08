@@ -18,7 +18,7 @@ header {
     width: 100%;
     background: none;
     font-family: "Montserrat", sans-serif;
-    z-index: 2;
+    z-index: 4;
 }
 
 .logo {
@@ -320,7 +320,7 @@ footer {
 
     .menu-btn {
         position: fixed;
-        z-index: 2;
+        z-index: 3;
         right: 20px;
         top: 20px;
         height: 50px;
